@@ -25,6 +25,12 @@ Here is some sample input:
 - takes two numbers:
   --one to count to and
   --another to determine what multiple to use to get there
+  * consider how to handle any input that might be submitted:
+
+  - empty values (user just presses enter)
+  - non-numeric values (It may be helpful to read up about the numerical value, NaN)
+  negative numbers
+  - count by number is larger than the count to numbers
 
 ## Setup/Installation Requirements
 
