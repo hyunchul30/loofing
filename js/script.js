@@ -3,7 +3,7 @@ $(document).ready(function(){
 // second function which is also an "event" handler function for the submit 'event' from the button on index.html
   $("#button").submit(function(event){
     event.preventDefault();
-    let outputs;
+    let output;
     let firstNumber = parseInt($("#first-number").val()); //limit a.k.a. 'count to'
     let secondNumber = parseInt($("#second-number").val()); // n (number to count by upto 1st#)
     console.log("Submit button Event functio: first, second", firstNumber, secondNumber);
@@ -20,5 +20,5 @@ $(document).ready(function(){
 
     });
     console.log("outer fxn");
-    alert("Output is: " + outputs);
+    output = $("#output"  is: " + output).show();
 });
